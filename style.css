@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #16325B;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #001F3F;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgba(0, 128, 0, 0.712);
+}
+
+.left {
+    font: size 1.4rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.first>div {
+    width: 30%;
+
+}
+
+.leftsec {
+
+
+    font-size: 3 rem;
+}
+
+.colour {
+    color: #A1D6B2;
+}
+
+second {
+    height: auto;
+    width: 50%;
+}
+
+.second h1 {
+    max-width: width 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6A9C89;
+}
+
+.second .content {
+    display: flex;
+
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.second .college {
+    display: flex;
+
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.skills h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6A9C89;
+}
+
+.skills .a {
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.contact d:hover {
+    color: blue;
+}
+
+.contact .c {
+    margin-top: 20px;
+    margin-left: 20%;
+
+}
+
+.contact .d {
+    margin-top: 20px;
+    margin-left: 20%;
+}
